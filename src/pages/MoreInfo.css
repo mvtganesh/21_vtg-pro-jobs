@@ -1,0 +1,71 @@
+.gradient-header {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+.urgent-badge {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: white;
+  color: red;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.requirement-badge {
+  background: #eef2ff;
+  color: #4e73df;
+  border: 1px solid #4e73df;
+  transition: 1s ease;
+}
+
+.requirement-badge:hover {
+  background: #4e73df;
+  color: white;
+  transform: scale(1.1);
+}
+
+.benefit-badge {
+  background: #e6fff2;
+  color: #1cc88a;
+  border: 1px solid #1cc88a;
+}
+
+.apply-btn {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(78, 115, 223, 0.4);
+}
+
+.sticky-apply {
+  position: sticky;
+  bottom: 20px;
+}
+
+.deadline{
+    color: green;
+}

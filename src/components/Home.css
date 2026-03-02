@@ -1,0 +1,73 @@
+.mainContent {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding-top: 4.2rem;
+}
+.filters-con {
+  height: 90vh;
+  overflow-y: scroll;
+}
+.Job-content-con {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+/* filters disp in block level formobile size */
+
+@media (max-width: 768px) {
+  /* when the screen size reaches the mobile size the normale filters disp none and offcanvas disp in the block formate */
+  .filters-con {
+    display: none;
+  }
+  .mainContent {
+    display: block;
+  }
+  .Job-content-con {
+    margin-top: 40px;
+  }
+  .filter-btn {
+    position: fixed;
+    top: 67px;
+    left: 2px;
+    z-index: 1050;
+  }
+}
+
+
+/* loading animation web name : https://css-loaders.com/ */
+
+/* HTML: <div class="loader"></div> */
+.mainloader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader {
+  width: 100px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-right-color: #25b09b;
+  animation: l15 1s infinite linear;
+}
+.loader::before,
+.loader::after {    
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+  animation: l15 2s infinite;
+}
+.loader::after {
+  margin: 8px;
+  animation-duration: 3s;
+}
+@keyframes l15{ 
+  100%{transform: rotate(1turn)}
+}
+
+
+

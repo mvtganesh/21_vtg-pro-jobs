@@ -1,0 +1,141 @@
+.filtersMainDiv {
+  border: 2px inset green;
+  padding: 10px 0px 10px 0px;
+}
+details{
+  /* border: 2px inset red;
+  height: vh; */
+}
+details summary {
+  text-indent: 1rem;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+details input[type="radio"] {
+  margin-left: 2rem;
+  cursor: pointer;
+  accent-color: #63f5c0; 
+}
+details select {
+  margin-left: 2rem;
+  height: 2rem;
+  border-color: green;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#resetselect {
+  height: 2rem;
+  border:1px solid green;
+  background-image: linear-gradient(135deg, #4e73df, #1cc88a);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 2px;
+}
+
+#Totalreset {
+  background-image: linear-gradient(135deg, #4e73df, #1cc88a);
+  border: none;
+  border-radius: 10px;
+  padding:1vh 3vw;
+}
+#TotalresetDiv {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+details input[type="checkbox"] {
+  margin-left: 1.3rem;
+  accent-color:#63f5c0; 
+}
+details label{
+  padding-left: 1vw;
+  color:darkslategray;
+  font-style: italic;
+}
+#companyName input {
+  margin-left: 1rem;
+  height: 2rem;
+  border-color: green;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#companyName button{
+  height: 2rem;
+  border: none;
+  margin-left: 2px;
+  background-image: linear-gradient(135deg, #4e73df, #1cc88a);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#reset2,#handleReset{
+     background-image: linear-gradient(135deg, #4e73df, #1cc88a);
+     border: none;
+     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+#reset1{
+    margin-top: 0.5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#Salary input{
+    width: 50%;
+}
+#Salary button{
+    width: 50%;
+}
+#Salary{
+    display:grid;
+    justify-content: center;
+    row-gap: 0.3rem;
+}
+#benefit button{
+   background-color:lightcyan;
+   border: 1px inset green;
+   margin:1rem 0rem 0rem 2rem;
+   padding: 1vh;
+   border-radius: 15px;
+}
+#benefit button:hover{
+    /* background-color:green; */
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+#benefit button:active{
+  font-weight: bold;
+  background-image:none;
+  background-color: white;
+  color: red;
+}
+
+#Salary input{
+  border-color: green;
+  border-radius: 10px;
+  text-align: center; 
+  color:darkslategrey;
+}
+#Salary input[type="number"]:focus{
+  background-color: white;color: red;
+}
+#Salary input[type="submit"]:hover{
+  background-color: white;
+  color: red;
+  font-weight: bold;
+}
+#Salary input[type="submit"]:active{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border:2px solid white;
+}
+/* remove arrows in input numbers*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+

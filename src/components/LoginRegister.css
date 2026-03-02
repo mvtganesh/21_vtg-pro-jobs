@@ -1,0 +1,160 @@
+
+/* ================= LOGIN PAGE STYLING */
+.mainDivOfLogin{
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.gettyimages.com/id/1070054128/photo/job-search-concept-hand-holding-magnifying-glass-for-search-jobs.jpg?s=2048x2048&w=gi&k=20&c=t_QGseCA2VLgigfDvg7doyZiX9aIU_jgdcJ58_2ib0o=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.auth-form {
+  max-width: 420px;
+  padding: 28px 100px;
+  background: lightcyan;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  font-family: "Segoe UI", sans-serif;
+  border: 2px inset green;
+}
+.auth-form:hover{
+  box-shadow: 0px 0px 6px 4px silver;
+}
+.auth-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* INPUT SAME AS MODAL */
+.auth-input {
+  width: 100%;
+  padding: 11px 13px;
+  margin: 8px 0 16px;
+  border-radius: 8px;
+  border: 1px solid #dcdfe6;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #4e73df;
+  box-shadow: 0 0 0 3px rgba(78,115,223,0.15);
+}
+
+/* LOGIN BUTTON */
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.auth-form button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 6px 4px rgba(0,0,0,0.15);
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .auth-form {
+    margin: 20px 12px;
+    padding: 22px 18px;
+  }
+}
+
+
+
+/* ----------------------style the register modal */
+.modal-content {
+  border-radius: 16px;
+  border: none;
+  margin: auto;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: white;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-body {
+  max-height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px 24px;
+}
+
+/* INPUT STYLE */
+.modal-body input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0 14px;
+  border-radius: 8px;
+  border: 1px solid #dcdfe6;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.modal-body input:focus {
+  outline: none;
+  border-color: #4e73df;
+  box-shadow: 0 0 0 3px rgba(78,115,223,0.15);
+}
+
+/* FILE INPUT */
+input[type="file"] {
+  padding: 8px;
+  background: #f8f9fc;
+  cursor: pointer;
+}
+
+/* SECTION HEADINGS */
+.modal-body h5 {
+  margin-top: 18px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.modal-body h6 {
+  margin-top: 12px;
+  color: #4e73df;
+  font-weight: 600;
+}
+
+/* FOOTER BUTTONS */
+.modal-footer .btn-primary {
+  background: #4e73df;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+.modal-footer .btn-secondary {
+  border-radius: 8px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin: 10px;
+  }
+
+  .modal-body {
+    max-height: 70vh;
+    padding: 16px;
+  }
+
+  .modal-body input {
+    font-size: 13px;
+  }
+}
+

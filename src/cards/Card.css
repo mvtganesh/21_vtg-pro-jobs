@@ -1,0 +1,62 @@
+.modern-card {
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  background: #ffffff;
+  overflow: hidden;
+}
+/* Gradient Top Border */
+.modern-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #4e73df, #1cc88a, #36b9cc);
+}
+.modern-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.12);
+}
+
+/* Company Name */
+.modern-card p {
+  font-size: 0.95rem;
+}
+
+/* requirements width changes */
+.badge{
+    transition: all 2s ease 0s;
+}
+.badge:hover {
+  transform: scale(1.2);
+}
+
+/* Apply Button Modern Style */
+.modern-card .btn-primary {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  border: none;
+  margin: 0px 0px 0px 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.modern-card .btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(78, 115, 223, 0.4);
+}
+
+#styleWishButton{
+  border: 2px inset green;
+  background-color: white !important;
+  margin: 0px 0px 0px 1rem;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  height:3rem;
+  width: 5rem;
+}
+#styleWishButton:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(78, 115, 223, 0.4); 
+  font-size: 20px;
+}
