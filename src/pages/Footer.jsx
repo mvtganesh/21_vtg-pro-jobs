@@ -69,16 +69,16 @@ export default function Footer() {
                 <a href="#" className="social-icon" aria-label="Facebook">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="#" className="social-icon" aria-label="Twitter">
+                <a  target="_blank" href="https://x.com/maddali_ga21396" className="social-icon" aria-label="Twitter">
                   <i className="bi bi-twitter-x"></i>
                 </a>
-                <a href="#" className="social-icon" aria-label="Instagram">
+                <a target="_blank" href="https://www.instagram.com/m.v.t.ganesh?igsh=YmR3bjN2eDFydzl1" className="social-icon" aria-label="Instagram">
                   <i className="bi bi-instagram"></i>
                 </a>
-                <a href="#" className="social-icon" aria-label="LinkedIn">
+                <a target="_blank" href="https://www.linkedin.com/in/m-v-t-ganesh-237726280/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx8UvV86eSy6SRDgkF26obQ%3D%3D" className="social-icon" aria-label="LinkedIn">
                   <i className="bi bi-linkedin"></i>
                 </a>
-                <a href="#" className="social-icon" aria-label="GitHub">
+                <a target="_blank" href="https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fgithub.com%2Fmvtganesh&urlhash=e4HV&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH0w1uNLFSPCySBsW7PO59w%3D%3D" className="social-icon" aria-label="GitHub">
                   <i className="bi bi-github"></i>
                 </a>
               </div>
