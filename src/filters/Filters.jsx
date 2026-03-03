@@ -476,7 +476,7 @@ export default function Filters({
               <input
                 onInput={companySize}
                 type="range"
-                step={100}
+                step={10}
                 min="0"
                 max="500000"
                 value={filtersState.companySize || 0}
@@ -528,3 +528,4 @@ export default function Filters({
     </div>
   );
 }
+
