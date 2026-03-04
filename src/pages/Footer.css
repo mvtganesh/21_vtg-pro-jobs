@@ -30,15 +30,22 @@
   padding: 1rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  transform: translateX(400px);
-  transition: transform 0.3s ease;
+
+  /* ✅ proper hiding */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+
   z-index: 9999;
   border-left: 4px solid #4e73df;
   min-width: 300px;
 }
 
 .toast-notification.show {
-  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .toast-content {
@@ -453,4 +460,5 @@
 .footer-main::-webkit-scrollbar-thumb {
   background: linear-gradient(135deg, #4e73df, #1cc88a);
   border-radius: 4px;
+
 }
